@@ -1,0 +1,1 @@
+{% extends "diary/base.html" %}{% block content %}<article class="diary-entry"><h1>{{ entry.title }}</h1><time datetime="{{ entry.date|date:'Y-m-d' }}">{{ entry.date }}</time><p class="text">{{ entry.text }}</p><small>Фрагмент дневника Л. Н. Толстого. <a href="{{ entry.source }}">Источник текста</a></small></article><p><a href="/">К списку записей</a></p>{% endblock %}

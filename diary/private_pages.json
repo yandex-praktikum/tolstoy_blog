@@ -1,0 +1,19 @@
+{
+  "/": "index.html",
+  "/admin_user/": "author_admin_user.html",
+  "/leo/": "author_leo.html",
+  "/?page=2": "index_page_2.html",
+  "/?page=3": "index_page_3.html",
+  "/?page=4": "index_page_4.html",
+  "/?page=5": "index_page_5.html",
+  "/?page=6": "index_page_6.html",
+  "/?page=7": "index_page_7.html",
+  "/?page=8": "index_page_8.html",
+  "/leo/?page=2": "author_leo_page_2.html",
+  "/leo/?page=3": "author_leo_page_3.html",
+  "/leo/?page=4": "author_leo_page_4.html",
+  "/leo/?page=5": "author_leo_page_5.html",
+  "/leo/?page=6": "author_leo_page_6.html",
+  "/leo/?page=7": "author_leo_page_7.html",
+  "/leo/?page=8": "author_leo_page_8.html"
+}

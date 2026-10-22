@@ -1,0 +1,1 @@
+{% extends "diary/base.html" %}{% block content %}<h1>Вход в учебный блог</h1><p>Записи доступны после входа.</p><form method="post" action="{% url 'login' %}">{% csrf_token %}{{ form.as_p }}<input type="hidden" name="next" value="{{ next }}"><button type="submit">Войти</button></form>{% endblock %}
